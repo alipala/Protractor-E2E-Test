@@ -38,7 +38,9 @@
 ## TS07: All those fields are mandatory.
 ## TS08: 'Title', 'Author', 'Publisher' fields can take any symbols as an input.
 	* TC01: Select "if on a Winter's Night a Traveler" book from the list
-	  Expected Result: Title value should be "if on a Winter's Night a Traveler"
+	```diff
+	+ Expected Result: Title value should be "if on a Winter's Night a Traveler"
+	  ```
 	* TC02: Update Title field by adding with special characters at the end of the title
 	  Expected Result: Title value should be "if on a Winter's Night a Traveler!'^+%&/()=?_-"
 	* TC03: Update Author field by adding with special characters at the end of the title
