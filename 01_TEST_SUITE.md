@@ -40,7 +40,7 @@
 	* TC01: Select "if on a Winter's Night a Traveler" book from the list
 	```diff
 	+ Expected Result: Title value should be "if on a Winter's Night a Traveler"
-	  ```
+	```
 	* TC02: Update Title field by adding with special characters at the end of the title
 	  Expected Result: Title value should be "if on a Winter's Night a Traveler!'^+%&/()=?_-"
 	* TC03: Update Author field by adding with special characters at the end of the title
