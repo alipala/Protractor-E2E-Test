@@ -47,7 +47,7 @@
 	  Expected Result: Publisher value should be "!'^+%&/()=?_-Myriad Editions"
 ## TS09: 'Year of publishing' takes only numbers as an input.
 	* TC01: Select first book from the list and update the "Year of publishing" field by using different characters than the numbers'
-	 Expected Result: "Year of publishing" CSS color value should be rgba(244, 67, 54, 1)
+	  Expected Result: "Year of publishing" CSS color value should be rgba(244, 67, 54, 1)
 ## TS10: User can modify book properties and Save or Cancel the changes through appropriate buttons
 	* TC01: Select "lolita" from list
 	  Expected Result: Title value should ve "lolita"
@@ -59,3 +59,5 @@
 	  Expected Result: Publisher value should be "Crocker & Brewster_updated_version"
 	* TC05: Update Year of publishing field as 2019
 	  Expected Result: "Year of publishing" value should ve 2019
+
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
