@@ -4,14 +4,14 @@
 
 ## TS01: Book names are displayed in the list.
 	* TC01: Check number of books
-	* Expected Result: The number of books should equal 7
+	  Expected Result: The number of books should equal 7
 ## TS02: User can select book from the list: book details will be displayed as a separate card.
 	* TC01: Select "desert solitaire" book and Read Title field
-	* Expected Result: Title value should be "desert solitaire"
+	  Expected Result: Title value should be "desert solitaire"
 	* TC02: Read Author field
-	* Expected Result: Author value should be 2
+	  Expected Result: Author value should be 2
 	* TC03: Read Publisher field
-	* Expected Result: Publisher value should be "Berkley Books"
+	  Expected Result: Publisher value should be "Berkley Books"
 	* TC04: Read Year of publishing field
 	* Expected Result: Year of publishing value should be 1913
 ## TS03: User can delete the book. The book will disappear from the list along with it's details.
