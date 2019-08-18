@@ -60,4 +60,7 @@
 	* TC05: Update Year of publishing field as 2019
 	  Expected Result: "Year of publishing" value should ve 2019
 
-![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
+```diff
++ this text is highlighted in green
+- this text is highlighted in red
+```
