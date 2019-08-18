@@ -57,8 +57,3 @@
 	  Expected Result: Publisher value should be "Crocker & Brewster_updated_version"
 	* TC05: Update Year of publishing field as 2019
 	  Expected Result: "Year of publishing" value should ve 2019
-
-```diff
-+ this text is highlighted in green
-- this text is highlighted in red
-```
