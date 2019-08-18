@@ -1,4 +1,6 @@
-# Application Under Test: The application 'Books' is an electronic library catalogue.
+```diff 
++ Application Under Test: The application 'Books' is an electronic library catalogue.
+```
 
 ### The 'Books' has a list containing all books in the library
 
