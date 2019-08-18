@@ -1,0 +1,1123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="26" tests="26" time="114.146">
+ <testsuite name="Book names are displayed in the list" timestamp="2019-08-16T04:20:13" hostname="localhost" time="12.551" errors="0" tests="1" skipped="0" disabled="0" failures="1">
+  <testcase classname="Book names are displayed in the list" name="Check number of books" time="12.55">
+   <failure type="exception" message="Failed: Angular could not be found on the page http://localhost:4200/. If this is not an Angular application, you may need to turn off waiting for Angular.
+                          Please see 
+                          https://github.com/angular/protractor/blob/master/docs/timeouts.md#waiting-for-angular-on-page-load"><![CDATA[Error: Angular could not be found on the page http://localhost:4200/. If this is not an Angular application, you may need to turn off waiting for Angular.
+                          Please see 
+                          https://github.com/angular/protractor/blob/master/docs/timeouts.md#waiting-for-angular-on-page-load
+    at executeAsyncScript_.then (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\browser.js:720:27)
+    at ManagedPromise.invokeCallback_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+From: Task: Run it("Check number of books") in control flow
+    at UserContext.<anonymous> (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at Spec.queueRunnerFactory (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+    at Spec.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+    at UserContext.fn (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+From asynchronous test: 
+Error: 
+    at Suite.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc01.e2e-spec.ts:8:5)
+    at addSpecsToSuite (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc01.e2e-spec.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Module.m._compile (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+ <testsuite name="User can select book from the list: book details will be displayed as a separate card" timestamp="2019-08-16T04:20:26" hostname="localhost" time="12.512" errors="0" tests="5" skipped="0" disabled="0" failures="5">
+  <testcase classname="User can select book from the list: book details will be displayed as a separate card" name="Select &quot;desert solitaire&quot; book" time="12.462">
+   <failure type="exception" message="Failed: Angular could not be found on the page http://localhost:4200/. If this is not an Angular application, you may need to turn off waiting for Angular.
+                          Please see 
+                          https://github.com/angular/protractor/blob/master/docs/timeouts.md#waiting-for-angular-on-page-load"><![CDATA[Error: Angular could not be found on the page http://localhost:4200/. If this is not an Angular application, you may need to turn off waiting for Angular.
+                          Please see 
+                          https://github.com/angular/protractor/blob/master/docs/timeouts.md#waiting-for-angular-on-page-load
+    at executeAsyncScript_.then (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\browser.js:720:27)
+    at ManagedPromise.invokeCallback_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+From: Task: Run it("Select "desert solitaire" book") in control flow
+    at UserContext.<anonymous> (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at Spec.queueRunnerFactory (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+    at Spec.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+    at UserContext.fn (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+From asynchronous test: 
+Error: 
+    at Suite.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc02.e2e-spec.ts:8:5)
+    at addSpecsToSuite (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc02.e2e-spec.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Module.m._compile (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="User can select book from the list: book details will be displayed as a separate card" name="Read Title" time="0.012">
+   <failure type="exception" message="Failed: Error while waiting for Protractor to sync with the page: &quot;both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor&apos;s bootstrapping.  See http://git.io/v4gXM for details&quot;"><![CDATA[Error: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"
+    at runWaitForAngularScript.then (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\browser.js:463:23)
+    at ManagedPromise.invokeCallback_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)Error: 
+    at ElementArrayFinder.applyAction_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as getAttribute] (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as getAttribute] (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc02.e2e-spec.ts:18:22)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+From: Task: Run it("Read Title") in control flow
+    at UserContext.<anonymous> (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at Spec.queueRunnerFactory (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+    at Spec.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+    at UserContext.fn (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+From asynchronous test: 
+Error: 
+    at Suite.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc02.e2e-spec.ts:15:5)
+    at addSpecsToSuite (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc02.e2e-spec.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Module.m._compile (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="User can select book from the list: book details will be displayed as a separate card" name="Read Author" time="0.012">
+   <failure type="exception" message="Failed: Error while waiting for Protractor to sync with the page: &quot;both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor&apos;s bootstrapping.  See http://git.io/v4gXM for details&quot;"><![CDATA[Error: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"
+    at runWaitForAngularScript.then (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\browser.js:463:23)
+    at ManagedPromise.invokeCallback_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)Error: 
+    at ElementArrayFinder.applyAction_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as getAttribute] (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as getAttribute] (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc02.e2e-spec.ts:25:23)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+From: Task: Run it("Read Author") in control flow
+    at UserContext.<anonymous> (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at Spec.queueRunnerFactory (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+    at Spec.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+    at UserContext.fn (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+From asynchronous test: 
+Error: 
+    at Suite.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc02.e2e-spec.ts:22:5)
+    at addSpecsToSuite (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc02.e2e-spec.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Module.m._compile (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="User can select book from the list: book details will be displayed as a separate card" name="Read Publisher" time="0.012">
+   <failure type="exception" message="Failed: Error while waiting for Protractor to sync with the page: &quot;both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor&apos;s bootstrapping.  See http://git.io/v4gXM for details&quot;"><![CDATA[Error: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"
+    at runWaitForAngularScript.then (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\browser.js:463:23)
+    at ManagedPromise.invokeCallback_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)Error: 
+    at ElementArrayFinder.applyAction_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as getAttribute] (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as getAttribute] (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc02.e2e-spec.ts:33:26)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+From: Task: Run it("Read Publisher") in control flow
+    at UserContext.<anonymous> (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at Spec.queueRunnerFactory (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+    at Spec.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+    at UserContext.fn (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+From asynchronous test: 
+Error: 
+    at Suite.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc02.e2e-spec.ts:29:5)
+    at addSpecsToSuite (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc02.e2e-spec.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Module.m._compile (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="User can select book from the list: book details will be displayed as a separate card" name="Read Year of publishing" time="0.014">
+   <failure type="exception" message="Failed: Error while waiting for Protractor to sync with the page: &quot;both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor&apos;s bootstrapping.  See http://git.io/v4gXM for details&quot;"><![CDATA[Error: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"
+    at runWaitForAngularScript.then (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\browser.js:463:23)
+    at ManagedPromise.invokeCallback_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)Error: 
+    at ElementArrayFinder.applyAction_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as getAttribute] (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as getAttribute] (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc02.e2e-spec.ts:41:21)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+From: Task: Run it("Read Year of publishing") in control flow
+    at UserContext.<anonymous> (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at Spec.queueRunnerFactory (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+    at Spec.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+    at UserContext.fn (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+From asynchronous test: 
+Error: 
+    at Suite.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc02.e2e-spec.ts:37:5)
+    at addSpecsToSuite (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc02.e2e-spec.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Module.m._compile (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+ <testsuite name="User can delete the book.The book will disappear from the list along with it&apos;s details." timestamp="2019-08-16T04:20:38" hostname="localhost" time="12.442" errors="0" tests="2" skipped="0" disabled="0" failures="2">
+  <testcase classname="User can delete the book.The book will disappear from the list along with it&apos;s details." name="Select &quot;lolita&quot; from the list to delete." time="12.427">
+   <failure type="exception" message="Failed: Angular could not be found on the page http://localhost:4200/. If this is not an Angular application, you may need to turn off waiting for Angular.
+                          Please see 
+                          https://github.com/angular/protractor/blob/master/docs/timeouts.md#waiting-for-angular-on-page-load"><![CDATA[Error: Angular could not be found on the page http://localhost:4200/. If this is not an Angular application, you may need to turn off waiting for Angular.
+                          Please see 
+                          https://github.com/angular/protractor/blob/master/docs/timeouts.md#waiting-for-angular-on-page-load
+    at executeAsyncScript_.then (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\browser.js:720:27)
+    at ManagedPromise.invokeCallback_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+From: Task: Run it("Select "lolita" from the list to delete.") in control flow
+    at UserContext.<anonymous> (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at Spec.queueRunnerFactory (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+    at Spec.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+    at UserContext.fn (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+From asynchronous test: 
+Error: 
+    at Suite.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc03.e2e-spec.ts:8:5)
+    at addSpecsToSuite (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc03.e2e-spec.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Module.m._compile (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="User can delete the book.The book will disappear from the list along with it&apos;s details." name="Verify to number of items as 6" time="0.015">
+   <failure type="exception" message="Failed: Error while waiting for Protractor to sync with the page: &quot;both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor&apos;s bootstrapping.  See http://git.io/v4gXM for details&quot;"><![CDATA[Error: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"
+    at runWaitForAngularScript.then (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\browser.js:463:23)
+    at ManagedPromise.invokeCallback_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+From: Task: Run it("Verify to number of items as 6") in control flow
+    at UserContext.<anonymous> (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at Spec.queueRunnerFactory (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+    at Spec.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+    at UserContext.fn (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+From asynchronous test: 
+Error: 
+    at Suite.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc03.e2e-spec.ts:15:5)
+    at addSpecsToSuite (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc03.e2e-spec.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Module.m._compile (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+ <testsuite name="User should be able to filter out the books by book name or part of book name. Filtration is case insensitive." timestamp="2019-08-16T04:20:50" hostname="localhost" time="24.954" errors="0" tests="2" skipped="0" disabled="0" failures="2">
+  <testcase classname="User should be able to filter out the books by book name or part of book name. Filtration is case insensitive." name="Type &quot;infi&quot; with lowercase" time="12.54">
+   <failure type="exception" message="Failed: Angular could not be found on the page http://localhost:4200/. If this is not an Angular application, you may need to turn off waiting for Angular.
+                          Please see 
+                          https://github.com/angular/protractor/blob/master/docs/timeouts.md#waiting-for-angular-on-page-load"><![CDATA[Error: Angular could not be found on the page http://localhost:4200/. If this is not an Angular application, you may need to turn off waiting for Angular.
+                          Please see 
+                          https://github.com/angular/protractor/blob/master/docs/timeouts.md#waiting-for-angular-on-page-load
+    at executeAsyncScript_.then (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\browser.js:720:27)
+    at ManagedPromise.invokeCallback_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+From: Task: Run it("Type "infi" with lowercase") in control flow
+    at UserContext.<anonymous> (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at Spec.queueRunnerFactory (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+    at Spec.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+    at UserContext.fn (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+From asynchronous test: 
+Error: 
+    at Suite.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc04.e2e-spec.ts:9:5)
+    at addSpecsToSuite (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc04.e2e-spec.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Module.m._compile (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="User should be able to filter out the books by book name or part of book name. Filtration is case insensitive." name="Type &quot;İnfi&quot; with uppercase " time="12.414">
+   <failure type="exception" message="Failed: Angular could not be found on the page http://localhost:4200/. If this is not an Angular application, you may need to turn off waiting for Angular.
+                          Please see 
+                          https://github.com/angular/protractor/blob/master/docs/timeouts.md#waiting-for-angular-on-page-load"><![CDATA[Error: Angular could not be found on the page http://localhost:4200/. If this is not an Angular application, you may need to turn off waiting for Angular.
+                          Please see 
+                          https://github.com/angular/protractor/blob/master/docs/timeouts.md#waiting-for-angular-on-page-load
+    at executeAsyncScript_.then (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\browser.js:720:27)
+    at ManagedPromise.invokeCallback_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+From: Task: Run it("Type "İnfi" with uppercase ") in control flow
+    at UserContext.<anonymous> (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at Spec.queueRunnerFactory (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+    at Spec.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+    at UserContext.fn (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+From asynchronous test: 
+Error: 
+    at Suite.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc04.e2e-spec.ts:19:5)
+    at addSpecsToSuite (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc04.e2e-spec.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Module.m._compile (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+ <testsuite name="Filtration can be dropped by erasing the filter criteria." timestamp="2019-08-16T04:21:15" hostname="localhost" time="12.465" errors="0" tests="1" skipped="0" disabled="0" failures="1">
+  <testcase classname="Filtration can be dropped by erasing the filter criteria." name="Delete &quot;infi&quot; to see the dropped." time="12.465">
+   <failure type="exception" message="Failed: Angular could not be found on the page http://localhost:4200/. If this is not an Angular application, you may need to turn off waiting for Angular.
+                          Please see 
+                          https://github.com/angular/protractor/blob/master/docs/timeouts.md#waiting-for-angular-on-page-load"><![CDATA[Error: Angular could not be found on the page http://localhost:4200/. If this is not an Angular application, you may need to turn off waiting for Angular.
+                          Please see 
+                          https://github.com/angular/protractor/blob/master/docs/timeouts.md#waiting-for-angular-on-page-load
+    at executeAsyncScript_.then (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\browser.js:720:27)
+    at ManagedPromise.invokeCallback_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+From: Task: Run it("Delete "infi" to see the dropped.") in control flow
+    at UserContext.<anonymous> (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at Spec.queueRunnerFactory (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+    at Spec.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+    at UserContext.fn (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+From asynchronous test: 
+Error: 
+    at Suite.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc05.e2e-spec.ts:8:5)
+    at addSpecsToSuite (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc05.e2e-spec.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Module.m._compile (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+ <testsuite name="Book has the following fields: &apos;Title&apos;, &apos;Author&apos;, &apos;Publisher&apos;, &apos;Year of publishing&apos;" timestamp="2019-08-16T04:21:28" hostname="localhost" time="12.517" errors="0" tests="5" skipped="0" disabled="0" failures="5">
+  <testcase classname="Book has the following fields: &apos;Title&apos;, &apos;Author&apos;, &apos;Publisher&apos;, &apos;Year of publishing&apos;" name="Select &apos;giovanni&apos;s room&apos; from the list" time="12.418">
+   <failure type="exception" message="Failed: Angular could not be found on the page http://localhost:4200/. If this is not an Angular application, you may need to turn off waiting for Angular.
+                          Please see 
+                          https://github.com/angular/protractor/blob/master/docs/timeouts.md#waiting-for-angular-on-page-load"><![CDATA[Error: Angular could not be found on the page http://localhost:4200/. If this is not an Angular application, you may need to turn off waiting for Angular.
+                          Please see 
+                          https://github.com/angular/protractor/blob/master/docs/timeouts.md#waiting-for-angular-on-page-load
+    at executeAsyncScript_.then (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\browser.js:720:27)
+    at ManagedPromise.invokeCallback_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+From: Task: Run it("Select 'giovanni's room' from the list") in control flow
+    at UserContext.<anonymous> (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at Spec.queueRunnerFactory (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+    at Spec.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+    at UserContext.fn (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+From asynchronous test: 
+Error: 
+    at Suite.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc06.e2e-spec.ts:8:5)
+    at addSpecsToSuite (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc06.e2e-spec.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Module.m._compile (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Book has the following fields: &apos;Title&apos;, &apos;Author&apos;, &apos;Publisher&apos;, &apos;Year of publishing&apos;" name="Read Title" time="0.035">
+   <failure type="exception" message="Failed: Error while waiting for Protractor to sync with the page: &quot;both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor&apos;s bootstrapping.  See http://git.io/v4gXM for details&quot;"><![CDATA[Error: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"
+    at runWaitForAngularScript.then (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\browser.js:463:23)
+    at ManagedPromise.invokeCallback_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)Error: 
+    at ElementArrayFinder.applyAction_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as getAttribute] (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as getAttribute] (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc06.e2e-spec.ts:18:22)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+From: Task: Run it("Read Title") in control flow
+    at UserContext.<anonymous> (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at Spec.queueRunnerFactory (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+    at Spec.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+    at UserContext.fn (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+From asynchronous test: 
+Error: 
+    at Suite.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc06.e2e-spec.ts:15:5)
+    at addSpecsToSuite (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc06.e2e-spec.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Module.m._compile (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Book has the following fields: &apos;Title&apos;, &apos;Author&apos;, &apos;Publisher&apos;, &apos;Year of publishing&apos;" name="Read Author" time="0.022">
+   <failure type="exception" message="Failed: Error while waiting for Protractor to sync with the page: &quot;both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor&apos;s bootstrapping.  See http://git.io/v4gXM for details&quot;"><![CDATA[Error: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"
+    at runWaitForAngularScript.then (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\browser.js:463:23)
+    at ManagedPromise.invokeCallback_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)Error: 
+    at ElementArrayFinder.applyAction_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as getAttribute] (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as getAttribute] (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc06.e2e-spec.ts:25:23)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+From: Task: Run it("Read Author") in control flow
+    at UserContext.<anonymous> (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at Spec.queueRunnerFactory (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+    at Spec.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+    at UserContext.fn (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+From asynchronous test: 
+Error: 
+    at Suite.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc06.e2e-spec.ts:22:5)
+    at addSpecsToSuite (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc06.e2e-spec.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Module.m._compile (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Book has the following fields: &apos;Title&apos;, &apos;Author&apos;, &apos;Publisher&apos;, &apos;Year of publishing&apos;" name="Read Publisher" time="0.021">
+   <failure type="exception" message="Failed: Error while waiting for Protractor to sync with the page: &quot;both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor&apos;s bootstrapping.  See http://git.io/v4gXM for details&quot;"><![CDATA[Error: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"
+    at runWaitForAngularScript.then (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\browser.js:463:23)
+    at ManagedPromise.invokeCallback_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)Error: 
+    at ElementArrayFinder.applyAction_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as getAttribute] (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as getAttribute] (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc06.e2e-spec.ts:33:26)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+From: Task: Run it("Read Publisher") in control flow
+    at UserContext.<anonymous> (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at Spec.queueRunnerFactory (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+    at Spec.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+    at UserContext.fn (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+From asynchronous test: 
+Error: 
+    at Suite.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc06.e2e-spec.ts:29:5)
+    at addSpecsToSuite (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc06.e2e-spec.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Module.m._compile (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Book has the following fields: &apos;Title&apos;, &apos;Author&apos;, &apos;Publisher&apos;, &apos;Year of publishing&apos;" name="Read Year of publishing" time="0.019">
+   <failure type="exception" message="Failed: Error while waiting for Protractor to sync with the page: &quot;both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor&apos;s bootstrapping.  See http://git.io/v4gXM for details&quot;"><![CDATA[Error: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"
+    at runWaitForAngularScript.then (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\browser.js:463:23)
+    at ManagedPromise.invokeCallback_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)Error: 
+    at ElementArrayFinder.applyAction_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as getAttribute] (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as getAttribute] (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc06.e2e-spec.ts:41:21)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+From: Task: Run it("Read Year of publishing") in control flow
+    at UserContext.<anonymous> (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at Spec.queueRunnerFactory (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+    at Spec.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+    at UserContext.fn (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+From asynchronous test: 
+Error: 
+    at Suite.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc06.e2e-spec.ts:37:5)
+    at addSpecsToSuite (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc06.e2e-spec.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Module.m._compile (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+ <testsuite name="&apos;Title&apos;, &apos;Author&apos;, &apos;Publisher&apos; fields can take any symbols as an input" timestamp="2019-08-16T04:21:40" hostname="localhost" time="12.407" errors="0" tests="4" skipped="0" disabled="0" failures="4">
+  <testcase classname="&apos;Title&apos;, &apos;Author&apos;, &apos;Publisher&apos; fields can take any symbols as an input" name="Select &apos;if on a Winter&apos;s Night a Traveler book" time="12.369">
+   <failure type="exception" message="Failed: Angular could not be found on the page http://localhost:4200/. If this is not an Angular application, you may need to turn off waiting for Angular.
+                          Please see 
+                          https://github.com/angular/protractor/blob/master/docs/timeouts.md#waiting-for-angular-on-page-load"><![CDATA[Error: Angular could not be found on the page http://localhost:4200/. If this is not an Angular application, you may need to turn off waiting for Angular.
+                          Please see 
+                          https://github.com/angular/protractor/blob/master/docs/timeouts.md#waiting-for-angular-on-page-load
+    at executeAsyncScript_.then (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\browser.js:720:27)
+    at ManagedPromise.invokeCallback_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+From: Task: Run it("Select 'if on a Winter's Night a Traveler book") in control flow
+    at UserContext.<anonymous> (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at Spec.queueRunnerFactory (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+    at Spec.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+    at UserContext.fn (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+From asynchronous test: 
+Error: 
+    at Suite.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc08.e2e-spec.ts:8:5)
+    at addSpecsToSuite (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc08.e2e-spec.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Module.m._compile (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="&apos;Title&apos;, &apos;Author&apos;, &apos;Publisher&apos; fields can take any symbols as an input" name="Update Title with special characters: !&apos;^+%&amp;/()=?_-" time="0.013">
+   <failure type="exception" message="Failed: Error while waiting for Protractor to sync with the page: &quot;both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor&apos;s bootstrapping.  See http://git.io/v4gXM for details&quot;"><![CDATA[Error: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"
+    at runWaitForAngularScript.then (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\browser.js:463:23)
+    at ManagedPromise.invokeCallback_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)Error: 
+    at ElementArrayFinder.applyAction_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as sendKeys] (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as sendKeys] (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc08.e2e-spec.ts:20:15)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+From: Task: Run it("Update Title with special characters: !'^+%&/()=?_-") in control flow
+    at UserContext.<anonymous> (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at Spec.queueRunnerFactory (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+    at Spec.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+    at UserContext.fn (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+From asynchronous test: 
+Error: 
+    at Suite.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc08.e2e-spec.ts:17:5)
+    at addSpecsToSuite (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc08.e2e-spec.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Module.m._compile (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="&apos;Title&apos;, &apos;Author&apos;, &apos;Publisher&apos; fields can take any symbols as an input" name="Update Author with special characters: !&apos;^+%&amp;/()=?_-" time="0.013">
+   <failure type="exception" message="Failed: Error while waiting for Protractor to sync with the page: &quot;both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor&apos;s bootstrapping.  See http://git.io/v4gXM for details&quot;"><![CDATA[Error: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"
+    at runWaitForAngularScript.then (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\browser.js:463:23)
+    at ManagedPromise.invokeCallback_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)Error: 
+    at ElementArrayFinder.applyAction_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as sendKeys] (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as sendKeys] (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc08.e2e-spec.ts:31:16)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+From: Task: Run it("Update Author with special characters: !'^+%&/()=?_-") in control flow
+    at UserContext.<anonymous> (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at Spec.queueRunnerFactory (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+    at Spec.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+    at UserContext.fn (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+From asynchronous test: 
+Error: 
+    at Suite.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc08.e2e-spec.ts:28:5)
+    at addSpecsToSuite (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc08.e2e-spec.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Module.m._compile (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="&apos;Title&apos;, &apos;Author&apos;, &apos;Publisher&apos; fields can take any symbols as an input" name="Update Publisher with special characters: !&apos;^+%&amp;/()=?_-" time="0.012">
+   <failure type="exception" message="Failed: Error while waiting for Protractor to sync with the page: &quot;both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor&apos;s bootstrapping.  See http://git.io/v4gXM for details&quot;"><![CDATA[Error: Error while waiting for Protractor to sync with the page: "both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details"
+    at runWaitForAngularScript.then (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\browser.js:463:23)
+    at ManagedPromise.invokeCallback_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)Error: 
+    at ElementArrayFinder.applyAction_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as sendKeys] (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as sendKeys] (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc08.e2e-spec.ts:41:19)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+From: Task: Run it("Update Publisher with special characters: !'^+%&/()=?_-") in control flow
+    at UserContext.<anonymous> (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at Spec.queueRunnerFactory (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+    at Spec.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+    at UserContext.fn (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+From asynchronous test: 
+Error: 
+    at Suite.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc08.e2e-spec.ts:38:5)
+    at addSpecsToSuite (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc08.e2e-spec.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Module.m._compile (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+ <testsuite name="Year of publishing takes only numbers as an input" timestamp="2019-08-16T04:21:53" hostname="localhost" time="12.467" errors="0" tests="1" skipped="0" disabled="0" failures="1">
+  <testcase classname="Year of publishing takes only numbers as an input" name="Select first book from the list and update the &quot;Year of publishing&quot; field by using different characters than the numbers" time="12.466">
+   <failure type="exception" message="Failed: Angular could not be found on the page http://localhost:4200/. If this is not an Angular application, you may need to turn off waiting for Angular.
+                          Please see 
+                          https://github.com/angular/protractor/blob/master/docs/timeouts.md#waiting-for-angular-on-page-load"><![CDATA[Error: Angular could not be found on the page http://localhost:4200/. If this is not an Angular application, you may need to turn off waiting for Angular.
+                          Please see 
+                          https://github.com/angular/protractor/blob/master/docs/timeouts.md#waiting-for-angular-on-page-load
+    at executeAsyncScript_.then (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\browser.js:720:27)
+    at ManagedPromise.invokeCallback_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+From: Task: Run it("Select first book from the list and update the "Year of publishing" field by using different characters than the numbers") in control flow
+    at UserContext.<anonymous> (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at Spec.queueRunnerFactory (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+    at Spec.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+    at UserContext.fn (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+From asynchronous test: 
+Error: 
+    at Suite.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc09.e2e-spec.ts:8:5)
+    at addSpecsToSuite (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc09.e2e-spec.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Module.m._compile (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+ <testsuite name="User can modify book properties and Save or Cancel the changes through appropriate buttons" timestamp="2019-08-16T04:22:05" hostname="localhost" time="1.831" errors="0" tests="5" skipped="0" disabled="0" failures="5">
+  <testcase classname="User can modify book properties and Save or Cancel the changes through appropriate buttons" name="Select a book from list to modify &quot;Title, Author,Publisher, Year of publishing&quot; fields and try to save" time="1.774">
+   <failure type="exception" message="Failed: Error while running testForAngular: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.100)
+  (Driver info: chromedriver=76.0.3809.12 (220b19a666554bdcac56dff9ffd44c300842c933-refs/branch-heads/3809@{#83}),platform=Windows NT 10.0.17134 x86_64)"><![CDATA[Error: Error while running testForAngular: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.100)
+  (Driver info: chromedriver=76.0.3809.12 (220b19a666554bdcac56dff9ffd44c300842c933-refs/branch-heads/3809@{#83}),platform=Windows NT 10.0.17134 x86_64)
+    at executeAsyncScript_.then (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\browser.js:727:23)
+    at ManagedPromise.invokeCallback_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+From: Task: Run it("Select a book from list to modify "Title, Author,Publisher, Year of publishing" fields and try to save") in control flow
+    at UserContext.<anonymous> (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at Spec.queueRunnerFactory (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+    at Spec.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+    at UserContext.fn (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+From asynchronous test: 
+Error: 
+    at Suite.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc10.e2e-spec.ts:8:5)
+    at addSpecsToSuite (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc10.e2e-spec.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Module.m._compile (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="User can modify book properties and Save or Cancel the changes through appropriate buttons" name="Update Title as lolita_updated_version" time="0.014">
+   <failure type="exception" message="Failed: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.100)
+  (Driver info: chromedriver=76.0.3809.12 (220b19a666554bdcac56dff9ffd44c300842c933-refs/branch-heads/3809@{#83}),platform=Windows NT 10.0.17134 x86_64)"><![CDATA[NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.100)
+  (Driver info: chromedriver=76.0.3809.12 (220b19a666554bdcac56dff9ffd44c300842c933-refs/branch-heads/3809@{#83}),platform=Windows NT 10.0.17134 x86_64)
+    at Object.checkLegacyResponse (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:546:15)
+    at parseHttpResponse (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+    at doSend.then.response (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+From: Task: Protractor.waitForAngular() - Locator: By(css selector, *[id="mat-input-1"])
+    at Driver.schedule (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at ProtractorBrowser.executeAsyncScript_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\browser.js:425:28)
+    at angularAppRoot.then (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\browser.js:456:33)
+    at ManagedPromise.invokeCallback_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)Error: 
+    at ElementArrayFinder.applyAction_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as sendKeys] (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as sendKeys] (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc10.e2e-spec.ts:20:15)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+From: Task: Run it("Update Title as lolita_updated_version") in control flow
+    at UserContext.<anonymous> (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at Spec.queueRunnerFactory (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+    at Spec.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+    at UserContext.fn (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+From asynchronous test: 
+Error: 
+    at Suite.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc10.e2e-spec.ts:17:5)
+    at addSpecsToSuite (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc10.e2e-spec.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Module.m._compile (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="User can modify book properties and Save or Cancel the changes through appropriate buttons" name="Update Author as 3_updated_version" time="0.014">
+   <failure type="exception" message="Failed: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.100)
+  (Driver info: chromedriver=76.0.3809.12 (220b19a666554bdcac56dff9ffd44c300842c933-refs/branch-heads/3809@{#83}),platform=Windows NT 10.0.17134 x86_64)"><![CDATA[NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.100)
+  (Driver info: chromedriver=76.0.3809.12 (220b19a666554bdcac56dff9ffd44c300842c933-refs/branch-heads/3809@{#83}),platform=Windows NT 10.0.17134 x86_64)
+    at Object.checkLegacyResponse (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:546:15)
+    at parseHttpResponse (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+    at doSend.then.response (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+From: Task: Protractor.waitForAngular() - Locator: By(css selector, *[id="mat-input-2"])
+    at Driver.schedule (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at ProtractorBrowser.executeAsyncScript_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\browser.js:425:28)
+    at angularAppRoot.then (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\browser.js:456:33)
+    at ManagedPromise.invokeCallback_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)Error: 
+    at ElementArrayFinder.applyAction_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as sendKeys] (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as sendKeys] (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc10.e2e-spec.ts:29:16)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+From: Task: Run it("Update Author as 3_updated_version") in control flow
+    at UserContext.<anonymous> (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at Spec.queueRunnerFactory (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+    at Spec.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+    at UserContext.fn (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+From asynchronous test: 
+Error: 
+    at Suite.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc10.e2e-spec.ts:26:5)
+    at addSpecsToSuite (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc10.e2e-spec.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Module.m._compile (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="User can modify book properties and Save or Cancel the changes through appropriate buttons" name="Update Publisher as Crocker &amp; Brewster_updated_version" time="0.014">
+   <failure type="exception" message="Failed: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.100)
+  (Driver info: chromedriver=76.0.3809.12 (220b19a666554bdcac56dff9ffd44c300842c933-refs/branch-heads/3809@{#83}),platform=Windows NT 10.0.17134 x86_64)"><![CDATA[NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.100)
+  (Driver info: chromedriver=76.0.3809.12 (220b19a666554bdcac56dff9ffd44c300842c933-refs/branch-heads/3809@{#83}),platform=Windows NT 10.0.17134 x86_64)
+    at Object.checkLegacyResponse (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:546:15)
+    at parseHttpResponse (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+    at doSend.then.response (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+From: Task: Protractor.waitForAngular() - Locator: By(css selector, *[id="mat-input-3"])
+    at Driver.schedule (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at ProtractorBrowser.executeAsyncScript_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\browser.js:425:28)
+    at angularAppRoot.then (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\browser.js:456:33)
+    at ManagedPromise.invokeCallback_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)Error: 
+    at ElementArrayFinder.applyAction_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as sendKeys] (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as sendKeys] (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc10.e2e-spec.ts:38:19)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+From: Task: Run it("Update Publisher as Crocker & Brewster_updated_version") in control flow
+    at UserContext.<anonymous> (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at Spec.queueRunnerFactory (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+    at Spec.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+    at UserContext.fn (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+From asynchronous test: 
+Error: 
+    at Suite.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc10.e2e-spec.ts:35:5)
+    at addSpecsToSuite (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc10.e2e-spec.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Module.m._compile (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="User can modify book properties and Save or Cancel the changes through appropriate buttons" name="Update Year of publishing as 2019" time="0.014">
+   <failure type="exception" message="Failed: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.100)
+  (Driver info: chromedriver=76.0.3809.12 (220b19a666554bdcac56dff9ffd44c300842c933-refs/branch-heads/3809@{#83}),platform=Windows NT 10.0.17134 x86_64)"><![CDATA[NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.100)
+  (Driver info: chromedriver=76.0.3809.12 (220b19a666554bdcac56dff9ffd44c300842c933-refs/branch-heads/3809@{#83}),platform=Windows NT 10.0.17134 x86_64)
+    at Object.checkLegacyResponse (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:546:15)
+    at parseHttpResponse (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+    at doSend.then.response (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+From: Task: Protractor.waitForAngular() - Locator: By(css selector, *[id="mat-input-4"])
+    at Driver.schedule (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at ProtractorBrowser.executeAsyncScript_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\browser.js:425:28)
+    at angularAppRoot.then (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\browser.js:456:33)
+    at ManagedPromise.invokeCallback_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)Error: 
+    at ElementArrayFinder.applyAction_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as clear] (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as clear] (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc10.e2e-spec.ts:47:19)
+    at C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+From: Task: Run it("Update Year of publishing as 2019") in control flow
+    at UserContext.<anonymous> (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at Spec.queueRunnerFactory (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+    at Spec.execute (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+    at UserContext.fn (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+    at attempt (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+From asynchronous test: 
+Error: 
+    at Suite.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc10.e2e-spec.ts:44:5)
+    at addSpecsToSuite (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Ali Pala\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\Ali Pala\Desktop\e2e-task-v8\e2e\src\tc10.e2e-spec.ts:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Module.m._compile (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\Users\Ali Pala\Desktop\e2e-task-v8\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+</testsuites>
