@@ -2,9 +2,7 @@
 
 ## TS01: Book names are displayed in the list.
 	* TC01: Check number of books
-	  ```diff
 	  Expected Result: The number of books should equal 7
-	  ```
 ## TS02: User can select book from the list: book details will be displayed as a separate card.
 	* TC01: Select "desert solitaire" book and Read Title field
 	  Expected Result: Title value should be "desert solitaire"
