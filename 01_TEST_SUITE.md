@@ -34,6 +34,10 @@
 	* TC04: Read "Year of publishing" field
 	  Expected Result: Year of publishing value should be 1969
 ## TS07: All those fields are mandatory.
+	* TC01: Select a book from the list
+	  Expected Result: The book details should be visible in the seperate card.
+	* TC02: Delete Title, Author, Publisher and try to save the changes
+	  Expected: Changes should not be applied since all fields are mandatory
 ## TS08: 'Title', 'Author', 'Publisher' fields can take any symbols as an input.
 	* TC01: Select "if on a Winter's Night a Traveler" book from the list
 	  Expected Result: Title value should be "if on a Winter's Night a Traveler"
